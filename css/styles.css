@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #FFFFFF;
+    color: #1E212C;
+}
+
+/* ============== Navbar-basic =============== */
+.menu-styles {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #424551;
+}
+
+/* ============== Navbar-basic =============== */
