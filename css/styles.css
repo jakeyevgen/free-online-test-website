@@ -45,6 +45,11 @@ body {
 }
 
 /* ============== Navbar-basic =============== */
+
+.header {
+    padding: 35px 0;
+}
+
 .menu-styles {
     font-style: normal;
     font-weight: 700;
@@ -52,5 +57,76 @@ body {
     line-height: 1.6;
     color: #424551;
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    /* outline: 1px solid red; */
+}
+
+.navigation {
+    display: flex;
+}
+
+.logo {
+    margin-right: 60px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-login {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.loginn-btn-flex {
+    display: flex;
+    margin-left: auto;
+}
+
+.btn-margin-left {
+    margin-right: 36px;
+}
+
+.btn {
+    display: block;
+}
+
+.btn-font {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 3.25;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.btn-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 40px;
+    gap: 10px;
+    width: 216px;
+    height: 52px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+/* .icon-person::before {
+    content: '';
+    content: url('../images/sprite/sprite.svg#icon-Person');
+    width: 20px;
+    height: auto;
+    display: inline-block;
+} */
 
 /* ============== Navbar-basic =============== */
