@@ -1,3 +1,8 @@
+:root {
+    --feautured-card-top-gap: 30px;
+    --feautured-card-left-gap: 30px;
+}
+
 h1,
 h2,
 h3,
@@ -295,6 +300,7 @@ body {
 
 /* ===============  /Hero  ===================== */
 
+/* ===============  Who we are  ================= */
 .who-we-are {
     padding: 180px 0;
 }
@@ -382,3 +388,192 @@ body {
 .who-list-margin-bottom {
     margin-bottom: 48px;
 }
+
+/* ===============  /Who we are  ================= */
+
+
+/* ===============  Featured Courses  ================= */
+.featured-bg {
+    width: 100vw;
+    height: 1080px;
+    background-color: #FFFFFF;
+}
+
+.feautured-padding {
+    padding: 0 0 180px 0;
+
+}
+
+.featured-title-style {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    margin-bottom: 8px;
+}
+
+.featured-second-title-style {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 60px;
+}
+
+.feaututre-flex {
+    display: flex;
+}
+
+.btn-feautured {
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.marketing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px 8px;
+    gap: 10px;
+    width: 79px;
+    height: 23px;
+    background: #03CEA4;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.management {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px 8px;
+    gap: 10px;
+    width: 97px;
+    height: 23px;
+    background: #5A87FC;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.recruting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px 8px;
+    gap: 10px;
+    width: 112px;
+    height: 23px;
+    background: #F89828;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.hr-title-style {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 20px;
+}
+
+.design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px 8px;
+    gap: 10px;
+    width: 59px;
+    height: 23px;
+    background: #F52F6E;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.graphic-title-style {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 20px;
+}
+
+.marketing-font {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.trainning-title-style {
+    font-style: normal;
+    width: 322px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 20px;
+}
+
+.usd-style {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FF4242;
+}
+
+.usd-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #787A80;
+}
+
+.training-flex {
+    display: flex;
+}
+
+.img-margin-right {
+    margin-right: 32px;
+}
+
+.feautured-card-content {
+    margin-top: 32px;
+}
+
+.training-card {
+    width: 585px;
+    height: 214px;
+    left: 345px;
+    top: 2152px;
+    background: #FFFFFF;
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+}
+
+.card-list>.card-taam {
+    flex-basis: calc(100% / 2 - var(--feautured-card-left-gap));
+    margin-left: var(--feautured-card-left-gap);
+    margin-top: var(--feautured-card-top-gap);
+}
+
+.card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--feautured-card-left-gap));
+    margin-top: calc(-1 * var(--feautured-card-top-gap));
+}
+
+
+
+/* ===============  /Featured Courses  ================= */
