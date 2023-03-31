@@ -577,3 +577,115 @@ body {
 
 
 /* ===============  /Featured Courses  ================= */
+
+/* ===============  Our benefits  ================= */
+.benefits-padding {
+    padding: 0 0 120px 0;
+
+}
+
+.benefits-main-title-style {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    margin-bottom: 8px;
+}
+
+.benefits-second-title-style {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    color: #1E212C;
+    margin-bottom: 60px;
+}
+
+.benefits-btn-font {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #9A9CA5;
+}
+
+.benefits-btn-style {
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    width: 307px;
+    height: 46px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+.benefits-tutors-submit::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+}
+
+.benefits-tutors-submit::before {
+    background-image: url("../images/sprite/icons.svg#Logo-top");
+    background-repeat: no-repeat;
+    fill: #5046e5;
+    border: 1px solid #FF3F3A;
+}
+
+
+.benefits-btn-style:hover,
+.benefits-btn-style:focus {
+    border: 1px solid #FF3F3A;
+}
+
+.benefits-btn-font:hover,
+.benefits-btn-font:focus {
+    color: #FF3F3A;
+    cursor: pointer;
+}
+
+
+.benefits-list-flex {
+    display: flex;
+}
+
+.benefits-tutors-font-style {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+
+.benefits-expl-font-style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    width: 495px;
+    height: 130px;
+}
+
+.benefits-flex {
+    display: flex;
+    align-items: center;
+}
+
+.list-flex-margin {
+    margin-bottom: 60px;
+}
+
+/* ===============  /Our benefits  ================= */
