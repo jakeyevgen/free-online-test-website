@@ -24,6 +24,7 @@ img {
     padding-right: 15px;
 }
 
+
 .img {
     display: block;
     max-width: 100%;
@@ -293,3 +294,91 @@ body {
 }
 
 /* ===============  /Hero  ===================== */
+
+.who-we-are {
+    padding: 180px 0;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .who-we-are-bg {
+        background-color: #FFFFFF;
+        width: 100vw;
+        background-image: url("../images/doing/About-min.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .who-we-are-bg {
+            background-image: url('../images/doing/About@2x-min.png');
+        }
+    }
+
+    @media (min-device-pixel-ratio: 3),
+    (-webkit-min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx) {
+        .who-we-are-bg {
+            background-image: url('../images/doing/About@3x-min.png');
+        }
+    }
+}
+
+.illustration-who {
+    display: block;
+    width: 705px;
+    height: auto;
+    /* margin-top: 126px; */
+    /* margin-left: auto; */
+    margin-right: 135px;
+}
+
+.who-we-are-main-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    margin-bottom: 8px;
+}
+
+.who-we-are-question-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+
+.who-flex {
+    display: flex;
+}
+
+.who-title-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.who-gap {
+    margin-bottom: 12px;
+}
+
+.who-list-style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.who-list-margin-bottom {
+    margin-bottom: 48px;
+}
