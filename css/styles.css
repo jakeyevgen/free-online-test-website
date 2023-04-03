@@ -1089,7 +1089,6 @@ body {
     line-height: 130%;
     text-align: center;
     color: #1E212C;
-    margin-bottom: 60px;
 }
 
 .team-fish-font {
@@ -1100,6 +1099,9 @@ body {
     font-size: 20px;
     line-height: 150%;
     color: #424551;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
 }
 
 .team-box {
@@ -1110,8 +1112,38 @@ body {
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 64px;
 }
 
+.team-img-round {
+    width: 72px;
+    height: 72px;
+}
 
+.round-img-flex {
+    display: flex;
+    margin-left: 163px;
+}
+
+.round-ing-main-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1E212C;
+}
+
+.round-ing-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #787A80;
+}
+
+.round-img-title-margin {
+    margin-left: 20px;
+    padding-left: 0;
+}
 
 /* ============  /Meet our team  ============== */
