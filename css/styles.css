@@ -1089,6 +1089,7 @@ body {
     line-height: 130%;
     text-align: center;
     color: #1E212C;
+    margin-bottom: 60px;
 }
 
 .team-fish-font {
@@ -1144,6 +1145,16 @@ body {
 .round-img-title-margin {
     margin-left: 20px;
     padding-left: 0;
+}
+
+.team-second-title-arrow-flex {
+    /* margin-left: auto; */
+    display: flex;
+    justify-content: center;
+}
+
+.team-arrow-left {
+    margin-left: auto;
 }
 
 /* ============  /Meet our team  ============== */
